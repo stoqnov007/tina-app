@@ -352,7 +352,7 @@ const branch = "main";
 const apiURL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:4001/graphql"
-    : `https://content.tinajs.io/content/${process.env.NEXT_PUBLIC_TINA_CLIENT_ID}/github/${branch}`;
+    : `https://content.tinajs.io/content/fb1c89c7-4176-4f80-8cb0-92b791901b37/github/${branch}`;
 
 export const tinaConfig = defineConfig({
   apiURL,
